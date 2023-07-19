@@ -11,8 +11,6 @@ action=input("Введите действие: ")
 
 if action=="+":
  print(first+second)
-elif action=="-":
- print(first-second)
 elif action=="*":
  print(first*second)
 
