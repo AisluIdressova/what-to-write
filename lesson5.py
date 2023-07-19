@@ -5,7 +5,7 @@ for number in range(1,operand+1)
 
 
 first=int(input("Введите первое число: "))
-second=int(input("Введите второе число: "))
+second=int(input("Введите третье число: "))
 
 action=input("Введите действие: ")
 
@@ -15,7 +15,6 @@ elif action=="-":
  print(first-second)
 elif action=="*":
  print(first*second)
-elif action=="/":
- print(first/second)
+
 else:
  print("Вы ввели неправильное действие! ")
